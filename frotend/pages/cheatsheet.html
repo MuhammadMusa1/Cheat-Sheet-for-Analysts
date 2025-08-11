@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Пример шпаргалки для аналитиков">
+    <meta name="keywords" content="шпаргалка, аналитика, списки, код">
+    <title>Шпаргалка для аналитиков - Общая шпаргалка</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cheatsheet.css">
+    <!-- Подсветка синтаксиса Prism.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
+</head>
+<body>
+    <header class="top-bar">
+        <button onclick="toggleTheme()" aria-label="Переключить тему (светлая/тёмная)">🌓 Тема</button>
+    </header>
+
+    <nav class="buttons">
+        <ul>
+            <li><a href="index.html" title="Перейти на главную страницу">Главная</a></li>
+            <li><a href="biznes-analiz.html" title="Перейти к разделу бизнес-анализа">Бизнес-анализ</a></li>
+            <li><a href="sistemny-analiz.html" title="Перейти к разделу системного анализа">Системный анализ</a></li>
+            <li><a href="product-owner.html" title="Перейти к разделу Product Owner">Product Owner</a></li>
+            <li><a href="cheatsheet.html" class="active" title="Перейти к общей шпаргалке">Шпаргалка</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Название шпаргалки</h1>
+        <h2>Подзаголовок</h2>
+        <p>Это пример текста шпаргалки. Здесь можно вставлять списки и код.</p>
+
+        <ul>
+            <li>Первый пункт</li>
+            <li>Второй пункт</li>
+            <li>Третий пункт</li>
+        </ul>
+
+        <pre><code class="language-sql">SELECT * FROM users WHERE active = 1;</code></pre>
+    </main>
+
+    <footer>
+        © 2025 Шпаргалка для аналитиков
+    </footer>
+
+    <script src="../js/theme.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+</body>
+</html>
