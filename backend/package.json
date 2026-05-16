@@ -1,0 +1,24 @@
+{
+  "name": "cheat-sheet-for-analysts-backend",
+  "version": "1.0.0",
+  "description": "Express API for the Cheat Sheet for Analysts project.",
+  "main": "routes/app.js",
+  "scripts": {
+    "start": "node routes/app.js",
+    "dev": "nodemon routes/app.js"
+  },
+  "keywords": [
+    "analyst",
+    "cheatsheet",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
