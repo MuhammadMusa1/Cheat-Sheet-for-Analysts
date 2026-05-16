@@ -1,0 +1,113 @@
+[
+  {
+    "slug": "biznes-analiz",
+    "title": "Business Analyst",
+    "subtitle": "Инструменты для выявления требований, описания процессов и работы со стейкхолдерами.",
+    "level": "BA",
+    "tags": ["requirements", "process", "stakeholders", "bpmn"],
+    "accent": "#2563eb",
+    "sections": [
+      {
+        "title": "Сбор требований",
+        "items": [
+          "Определи бизнес-цель и метрику успеха до обсуждения решения.",
+          "Разделяй needs, wants и constraints, чтобы не смешивать проблему и пожелания.",
+          "Фиксируй источник требования: роль, интервью, документ или наблюдение.",
+          "Проверяй каждое требование вопросом: что изменится для пользователя или бизнеса?"
+        ]
+      },
+      {
+        "title": "Документы",
+        "items": [
+          "Vision and Scope: цель, границы, аудитория, риски.",
+          "BRD: бизнес-проблема, процессы, правила, KPI.",
+          "SRS/FRD: функциональные и нефункциональные требования.",
+          "User stories: As a / I want / So that плюс acceptance criteria."
+        ]
+      },
+      {
+        "title": "Процессы",
+        "items": [
+          "AS-IS описывает текущий процесс без улучшений.",
+          "TO-BE показывает целевой процесс после изменений.",
+          "BPMN используй для ролей, событий, шлюзов и исключений.",
+          "SIPOC помогает быстро увидеть поставщиков, входы, процесс, выходы и клиентов."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sistemny-analiz",
+    "title": "System Analyst",
+    "subtitle": "Шпаргалка по API, интеграциям, данным и технической декомпозиции требований.",
+    "level": "SA",
+    "tags": ["api", "sql", "integration", "uml"],
+    "accent": "#0891b2",
+    "sections": [
+      {
+        "title": "API",
+        "items": [
+          "Опиши endpoint: method, path, auth, headers, request, response, errors.",
+          "Для REST используй существительные в URL и HTTP-методы для действий.",
+          "Фиксируй коды ошибок и формат error response заранее.",
+          "Версионируй контракт, если изменение ломает клиентов."
+        ]
+      },
+      {
+        "title": "Данные",
+        "items": [
+          "ERD показывает сущности, связи, ключи и кардинальность.",
+          "Data dictionary описывает поля, типы, ограничения и примеры.",
+          "Проверяй nullable, unique, default, enum и audit-поля.",
+          "Для миграций фиксируй rollback-сценарий."
+        ]
+      },
+      {
+        "title": "Интеграции",
+        "items": [
+          "Определи источник истины для каждого поля.",
+          "Укажи синхронность: request-response, event, batch или schedule.",
+          "Продумай retry, idempotency, timeout и dead-letter сценарии.",
+          "Логируй correlation id для трассировки между системами."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "product-owner",
+    "title": "Product Owner",
+    "subtitle": "Практики для приоритизации, discovery, backlog management и приемки результата.",
+    "level": "PO",
+    "tags": ["backlog", "prioritization", "discovery", "metrics"],
+    "accent": "#16a34a",
+    "sections": [
+      {
+        "title": "Приоритизация",
+        "items": [
+          "RICE: Reach, Impact, Confidence, Effort.",
+          "MoSCoW: Must, Should, Could, Won't.",
+          "WSJF полезен, когда важны стоимость задержки и размер работы.",
+          "Не ставь высокий приоритет без понятной ценности и проверяемой гипотезы."
+        ]
+      },
+      {
+        "title": "Backlog",
+        "items": [
+          "Элемент backlog должен быть понятен, оценим и проверяем.",
+          "Definition of Ready снижает хаос перед sprint planning.",
+          "Definition of Done фиксирует общий стандарт готовности.",
+          "Acceptance criteria лучше писать до начала разработки."
+        ]
+      },
+      {
+        "title": "Метрики",
+        "items": [
+          "North Star Metric отражает долгосрочную ценность продукта.",
+          "Leading metrics меняются раньше результата и помогают управлять курсом.",
+          "Lagging metrics показывают итог, но плохо подходят для быстрых решений.",
+          "Для каждой фичи определи baseline и ожидаемый эффект."
+        ]
+      }
+    ]
+  }
+]
