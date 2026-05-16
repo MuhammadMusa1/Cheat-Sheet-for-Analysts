@@ -1,6 +1,6 @@
 # Cheat Sheet for Analysts
 
-A small, working reference site for business analysts, system analysts, and product owners. The project can be opened as a static frontend or run with a lightweight Express backend that exposes the same cheatsheets through an API.
+A small, working reference site for business analysts, system analysts, and product owners. The project can be served as a static frontend or run with a lightweight Express backend that exposes the same cheatsheets through an API.
 
 ## Project Structure
 
@@ -38,7 +38,13 @@ cheat-sheet-for-analysts/
 
 ## Run as a Static Site
 
-Open `index.html` in the repository root, or serve the project with any static server. For GitHub Pages, use the repository root as the Pages source.
+Serve the repository root with any static server and open `index.html`. For GitHub Pages, use the repository root as the Pages source.
+
+Example:
+
+```bash
+npx serve .
+```
 
 ## Run with Backend API
 
@@ -57,6 +63,7 @@ http://localhost:3000
 API endpoints:
 
 ```text
+GET /api/health
 GET /api/cheatsheets
 GET /api/cheatsheets/:slug
 GET /api/search?q=term
