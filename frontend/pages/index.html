@@ -24,27 +24,36 @@
         </div>
       </nav>
     </header>
-
+ 
     <main class="site-shell">
       <section class="hero">
         <div>
-          <h1>Cheat Sheet for Analysts</h1>
-          <p>Короткие, практичные подсказки для бизнес-анализа, системного анализа и product ownership.</p>
+          <p class="hero-eyebrow">Справочник аналитика</p>
+          <h1>Cheat Sheet<br>for <em>Analysts</em></h1>
+          <p class="hero-sub">Практичные подсказки для бизнес-анализа, системного анализа и product ownership. Всё нужное — в одном месте.</p>
         </div>
         <aside class="search-panel" aria-label="Поиск по материалам">
+          <p class="search-panel-label">Быстрый поиск</p>
           <form class="search-box" data-search-form>
-            <input type="search" placeholder="Найти API, BPMN, backlog..." data-search-input>
-            <button type="submit">Search</button>
+            <input type="search" placeholder="API, BPMN, backlog, MoSCoW…" data-search-input>
+            <button type="submit">Найти</button>
           </form>
           <div class="result-list" data-result-list></div>
         </aside>
       </section>
-
+ 
+      <div class="grid-header">
+        <span class="grid-header-label">Разделы</span>
+        <span class="grid-header-label" id="cards-count"></span>
+      </div>
       <section class="grid" data-card-grid aria-label="Разделы"></section>
     </main>
-
+ 
     <footer class="footer">
-      <div class="site-shell">Made for quick analyst reference.</div>
+      <div class="site-shell footer-inner">
+        <span class="footer-brand">Cheat Sheet for Analysts</span>
+        <span class="footer-note">Краткий справочник · Made for quick reference</span>
+      </div>
     </footer>
   </body>
 </html>

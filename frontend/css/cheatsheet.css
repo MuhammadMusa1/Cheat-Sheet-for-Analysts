@@ -1,27 +1,14 @@
-.quick-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 22px;
-}
-
-.quick-nav a {
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--surface);
-  color: var(--muted);
-  padding: 10px 12px;
-}
-
-.quick-nav a:hover {
+.quick-nav a.current {
   color: var(--text);
-  border-color: var(--accent);
+  border-color: var(--text);
+  background: var(--surface-2);
+  font-weight: 500;
 }
-
-.empty-state {
-  border: 1px dashed var(--border);
-  border-radius: 8px;
+ 
+.section-count {
+  font-family: var(--font-mono);
+  font-size: 11px;
   color: var(--muted);
-  padding: 24px;
-  text-align: center;
+  letter-spacing: 0.08em;
 }
+ 
