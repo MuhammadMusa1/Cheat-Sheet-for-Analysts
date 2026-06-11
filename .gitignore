@@ -5,4 +5,4 @@ node_modules/
 .vscode/
 dist/
 coverage/
-backend/db/*.db
+backend/db/*.db*

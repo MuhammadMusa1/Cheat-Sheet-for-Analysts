@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&family=DM+Mono:wght@400;500&display=swap');
 
 :root {
-  --bg: #f5f0ea;
-  --surface: #fdfaf6;
-  --surface-2: #efe9df;
-  --surface-3: #e5ddd0;
-  --text: #1a1208;
-  --text-2: #4a3f2f;
-  --muted: #8a7a65;
-  --border: #d4c8b5;
-  --border-light: #e8e0d0;
-  --accent: #2563eb;
-  --accent-warm: #c9440a;
-  --accent-green: #1a6640;
+  --bg: #fdf6ee;
+  --surface: #ffffff;
+  --surface-2: #fbeede;
+  --surface-3: #ffcdaa;
+  --text: #0e1a30;
+  --text-2: #3a4a5c;
+  --muted: #8795a8;
+  --border: #e6d6c3;
+  --border-light: #f0e2d2;
+  --accent: #0050c8;
+  --accent-warm: #c98a4a;
+  --accent-green: #5a86bf;
   --shadow-sm: 0 2px 8px rgba(26,18,8,0.07);
   --shadow-md: 0 8px 32px rgba(26,18,8,0.10);
   --shadow-lg: 0 24px 64px rgba(26,18,8,0.13);
@@ -24,18 +24,18 @@
 }
 
 :root[data-theme="dark"] {
-  --bg: #0f0d0a;
-  --surface: #1a1710;
-  --surface-2: #231f17;
-  --surface-3: #2d2820;
-  --text: #f0ead8;
-  --text-2: #c5b89a;
-  --muted: #7a6e5a;
-  --border: #3a3428;
-  --border-light: #2d2820;
-  --accent: #60a5fa;
-  --accent-warm: #f87c4a;
-  --accent-green: #4ade80;
+  --bg: #0a1424;
+  --surface: #11203a;
+  --surface-2: #16284a;
+  --surface-3: #1d3358;
+  --text: #eaf1fb;
+  --text-2: #b3c4dd;
+  --muted: #7488a3;
+  --border: #243a5e;
+  --border-light: #1a2c4a;
+  --accent: #5a92e6;
+  --accent-warm: #ffcdaa;
+  --accent-green: #91beeb;
   --shadow-sm: 0 2px 8px rgba(0,0,0,0.3);
   --shadow-md: 0 8px 32px rgba(0,0,0,0.4);
   --shadow-lg: 0 24px 64px rgba(0,0,0,0.5);
